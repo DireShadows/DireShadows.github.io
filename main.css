@@ -1,11 +1,23 @@
+html { 
+background-color:purple;
+}
 body {
   font-family: 'Roboto', sans-serif;
+   background: linear-gradient(magenta, purple);
   font-weight: 300;
 }
 
-
+h2 {
+color:#FFF;
+}
+p { 
+color:#FFF;
+}
+ol {
+color:#FFF;
+}
 footer .row {
-  display: flex;
+ 
   align-items: center;
 }
 
@@ -15,13 +27,58 @@ header h1 {
   align-items: center;
 
 }
+/* Dropdown Button */
+.dropbtn {
+    background-color:#F19201;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color:#BE6B10;
+}
 
 
 
 .jumbotron {
-	display: flex;
-	align-items: center;
-	background-image: url(Rakan_Xayah.jpg);
+	align-items: left;
+	 background: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet); 
 	background-size: cover;
 	color: #ffffff;
 	height: 500px;
@@ -33,20 +90,24 @@ header h1 {
   font-weight: 700;
   margin: 0;
   color: #fff;
+  align-items: left;
 }
 
 .jumbotron h3 {
   margin: 5 0 20px;
   color: #fff;
+  align-items: left;
 }
 
 section .row {
   margin: 0 0 30px;
   width: 100%;  
+  align-items: left;
 }
 
 .col-md-6 {
   margin: 0 0 30px;
+  align-items: left;
 }
 
 .sub-1 {
@@ -54,43 +115,49 @@ section .row {
   font-size: 18px;
   color: #003319;
   font-weight: bold;
+  align-items: left;
 }
 
 
 .btn.btn-primary {
   border-radius: 2px;
   border: 0px;
-  color: green;
+  color:#FFF;
   text-shadow: none;
-  background-color: #ffffff;
+  background-color:#FF8000;
+  align-items: left;
 }
 
 .btn.btn-primary:hover {
   color: white;
-  background-color: #006631;
+  background-color:#BE6B10;
+  align-items: left;
 }
 
 .btn-secondary {
   background-color: #E8DFE0;
   color: #ffffff;
   margin: 0 0 30px;
+  align-items: left;
 }
 
 footer {
   font-size: 12px;
   padding: 20px 0;
+  align-items: left;
 }
 
 footer .col-sm-8 {
-  display: flex;
-  justify-content: flex-end;
+  align-items: left;;
 }
 
 footer ul {
   list-style: none;
+  align-items: left;
 }
 
 footer li img {
   width: 32px;
   height: 32px;
+  align-items: left;
 }
